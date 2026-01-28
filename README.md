@@ -1,2 +1,24 @@
-# Telco-Customer-Churn-Analysis
-End-to-End Data Analysis Projekt (Python, SQL, Power BI)
+# 📊 Telco Customer Churn Analysis
+Ein End-to-End Data Analytics Projekt zur Identifizierung von Kündigungsrisiken und Umsatzverlusten.
+
+## 📝 Projektübersicht
+In diesem Projekt untersuche ich, warum Kunden eines Telekommunikationsunternehmens kündigen. Ziel ist es, Muster im Kundenverhalten zu erkennen und datengestützte Empfehlungen zur Steigerung der Kundenbindung zu geben.
+
+## 🛠 Tech Stack
+* **Python (Jupyter Lab):** Data Cleaning & Transformation (Pandas).
+* **SQL (PostgreSQL):** Deep Dive Analyse & Feature Engineering.
+* **Power BI:** Interaktives Dashboard & Storytelling.
+
+## 🚀 Key Insights
+* **Vertragsrisiko:** Kunden mit "Month-to-month" Verträgen haben eine signifikant höhere Churn-Rate als Kunden mit langfristigen Verträgen.
+* **Technologie-Auffälligkeit:** Glasfaser-Kunden kündigen häufiger, was auf technische Instabilität oder Preis-Leistungs-Probleme hindeuten könnte.
+* **Umsatzverlust:** Durch den Churn im Bereich der monatlichen Verträge verliert das Unternehmen monatlich ca. $X.XXX an Umsatz.
+
+## 📊 Dashboard Preview
+![Dashboard Screenshot](reports/dashboard_screenshot.png)
+![Dashboard Screenshot](reports/dashboard_view.png)
+
+## 📂 Struktur
+1. **Data Cleaning:** Behandlung von Missing Values in `TotalCharges` via Python.
+2. **Database:** Import in PostgreSQL; Erstellung von Views für optimierte BI-Verbindung.
+3. **Visualisierung:** Aufbau eines Dashboards mit Fokus auf Churn-Metriken und Segmentierung.
