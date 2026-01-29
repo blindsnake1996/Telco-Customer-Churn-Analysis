@@ -15,8 +15,8 @@ In diesem Projekt untersuche ich, warum Kunden eines Telekommunikationsunternehm
 * **Umsatzverlust:** Durch den Churn im Bereich der monatlichen Verträge verliert das Unternehmen monatlich ca. $X.XXX an Umsatz.
 
 ## 📊 Dashboard Preview
-![Dashboard Screenshot](reports/dashboard_screenshot.png)
-![Dashboard Screenshot](reports/dashboard_view.png)
+<img width="1476" height="837" alt="image" src="https://github.com/user-attachments/assets/845a0654-e35d-4ce3-8dae-7b5e7690cac8" />
+
 
 ## 📂 Struktur
 1. **Data Cleaning:** Behandlung von Missing Values in `TotalCharges` via Python.
